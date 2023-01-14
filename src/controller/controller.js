@@ -3,8 +3,6 @@ const axios = require("axios");
 
 const getCoin = async (req, res) => {
   res.setHeader("Authorization", "Bearer 1fcde70f-a88e-40fb-9950-ac193f6af3cf");
-  let url= "https://api.coincap.io/v2/assets"
-
 
   axios.get("https://api.coincap.io/v2/assets")
   .then(async (response)=>{ 
@@ -22,9 +20,6 @@ const getCoin = async (req, res) => {
     res.status(400).send({msg:err.message})
   })
 
-
-
-  
 };
 
 module.exports.postCoin = getCoin;

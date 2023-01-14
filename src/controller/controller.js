@@ -24,7 +24,3 @@ const getCoin = async (req, res) => {
 
 module.exports.postCoin = getCoin;
 
-// - for inserting the documents, use findOneAndUpdate with upsert=true..this will create a new document in case there is no entry or will update the old doc with new values when there is an entry already there
-//Now the assignment is to create an API that does the following ( one single API and not multiple separate API’s)
-
-// Get the list of all the top 100 cryptocurrency coins in the world using the /assets api ( the first api mentioned in the documentation)

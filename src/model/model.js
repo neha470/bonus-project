@@ -11,7 +11,7 @@ const coinSchema = new mongoose.Schema(
       unique:true
 
     },
-    marketCapUsd: Number,
+    marketCapUsd: String,
     priceUsd: String,
   },
   { timestamps: true }

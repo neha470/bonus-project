@@ -13,7 +13,7 @@ const getCoin = async (req, res) => {
         });
         // const delteData=await coinmodel.deleteMany()
         const createData = await coinmodel.create(sortvalue);
-        res.send({ msg: createData });
+        res.status(201).send({ msg: createData });
   })
   .catch((err)=>{
     console.log(err.message)

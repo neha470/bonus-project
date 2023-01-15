@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended:true}));
 
 mongoose
   .connect(
-    "mongodb+srv://vintiray:7091201680@cluster0.ahtxrqr.mongodb.net/bonusProject",
+    "mongodb+srv://nehafunctionup:functionup@cluster0.vagtsgm.mongodb.net/bonusproject",
     {
       useNewUrlParser: true,
     }

@@ -4,7 +4,7 @@ const axios = require("axios");
 const getCoin = async (req, res) => {
   
 
-  axios.get("https://api.coincap.io/v2/assets")
+  axios.get("https://api.coincap.io/v2/assets")  
   .then(async (response)=>{ 
     
     let data=response.data.data
